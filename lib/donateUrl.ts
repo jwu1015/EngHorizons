@@ -1,3 +1,3 @@
 
 export const DONATE_URL =
-  "https://www.zeffy.com/en-US/donation-form/engineering-horizons";
+  "https://gofund.me/d6f60adee";
