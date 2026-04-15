@@ -32,7 +32,6 @@ export async function submitContactForm(
     };
   }
 
-  // Wire to email, webhook, or database when ready.
   console.log("[contact] submission", {
     name,
     email,

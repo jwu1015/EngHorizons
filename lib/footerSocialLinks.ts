@@ -1,6 +1,4 @@
-/**
- * Footer contact buttons.
- */
+
 export const FOOTER_SOCIAL_LINKS = [
   {
     href: "https://www.instagram.com/engineeringhorizonsatuw/",

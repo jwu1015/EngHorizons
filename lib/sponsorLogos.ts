@@ -1,6 +1,4 @@
-/**
- * Sponsor logos in `public/sponsors/`.
- */
+
 export const SPONSOR_ASSET_VERSION = "2026-04-15-1";
 
 export const SPONSOR_LOGOS: readonly string[] = [

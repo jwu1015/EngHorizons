@@ -70,7 +70,7 @@ export default function TeamsAccordion({ teams }: Props) {
                   </p>
                   {isOpen ? (
                     <div className="relative mt-5 aspect-[16/9] w-full min-h-[12rem] overflow-hidden border border-border bg-surface sm:min-h-[14rem] md:min-h-[16rem]">
-                      {/* Mount only when open so lazy-loading is not stuck inside a 0-height row */}
+                      
                       <img
                         src={team.photoSrc}
                         alt={`${team.name} team photo`}

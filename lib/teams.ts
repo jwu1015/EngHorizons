@@ -1,7 +1,4 @@
-/**
- * Robotics project subteams — logos in `public/team-logos/`.
- * Team photos: `public/team-photos/<slug>/<slug>.jpeg`. Use real JPEG bytes (not HEIC/HEIF renamed to .jpeg).
- */
+
 export const TEAMS = [
   {
     name: "Mechanical",

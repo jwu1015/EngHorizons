@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  /* Light theme, purple accent (fonts unchanged: mono + heading) */
+  
   --color-background: #ffffff;
   --color-foreground: #0a0a0a;
   --color-accent: #5b21b6;
@@ -13,7 +13,7 @@
   --color-border: #e4e4e7;
   --color-surface: #fafafa;
 
-  /* Hero sits on darkened imagery; keep light text for contrast */
+  
   --hero-media-text: #f4f4f5;
   --hero-media-muted: #a1a1aa;
 
@@ -146,7 +146,7 @@
       0 2px 20px rgb(0 0 0 / 0.55);
   }
 
-  /* Hero strapline: frosted card + single accent spine (minimal) */
+  
   .hero-title-sm-panel {
     border-radius: var(--radius-md);
     border: 1px solid rgb(255 255 255 / 0.12);
@@ -202,7 +202,7 @@
     box-shadow: 8px 8px 0 0 rgb(91 33 182 / 0.2);
   }
 
-  /* Accent information panel */
+  
   .tech-panel {
     @apply border border-border border-l-[3px] border-l-accent p-6 md:p-8;
     background:

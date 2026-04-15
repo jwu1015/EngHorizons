@@ -1,9 +1,9 @@
 type SectionIntroProps = {
-  /** Short label above the title (e.g. section index or category). */
+  
   kicker: string;
   title?: string;
   lede?: string;
-  /** Centered stack with top rule instead of left accent bar. */
+  
   variant?: "frame" | "center";
 };
 

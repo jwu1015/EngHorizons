@@ -1,4 +1,4 @@
-/** Main site navigation paths (App Router). */
+
 import { DONATE_URL } from "@/lib/donateUrl";
 
 export const HEADER_NAV = [
