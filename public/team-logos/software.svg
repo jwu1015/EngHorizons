@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" fill="none" aria-hidden="true">
+  <!-- Laptop with code on screen -->
+  <rect x="44" y="28" width="112" height="64" rx="4" stroke="#fff" stroke-width="1.6" />
+  <path stroke="#fff" stroke-width="1.4" d="M52 38 H148 M52 48 H132 M52 58 H140" stroke-linecap="round" />
+  <path stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M76 72 L68 80 L76 88 M124 72 L132 80 L124 88" />
+  <path stroke="#fff" stroke-width="2" stroke-linecap="round" d="M96 72 H104" />
+  <path stroke="#fff" stroke-width="1.6" d="M32 98 H168" stroke-linecap="round" />
+  <path stroke="#fff" stroke-width="1.4" d="M56 98 V104 H144 V98" stroke-linecap="round" />
+</svg>

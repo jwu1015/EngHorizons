@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" fill="none" aria-hidden="true">
+  <!-- Two-prong plug + cord (left), lightning (right) -->
+  <path stroke="#fff" stroke-width="1.5" stroke-linejoin="round" d="M44 42 H96 V78 H44 Z" />
+  <path stroke="#fff" stroke-width="1.5" stroke-linecap="round" d="M58 42 V34 H82 V42" />
+  <path stroke="#fff" stroke-width="2.6" stroke-linecap="round" d="M64 34 V22 M76 34 V22" />
+  <circle cx="64" cy="58" r="2.8" fill="#fff" />
+  <circle cx="76" cy="58" r="2.8" fill="#fff" />
+  <path stroke="#fff" stroke-width="1.4" stroke-linecap="round" d="M70 78 V100" />
+  <path
+    fill="#fff"
+    d="M118 34 L138 34 L128 52 L142 52 L112 92 L120 66 L106 66 Z"
+  />
+</svg>

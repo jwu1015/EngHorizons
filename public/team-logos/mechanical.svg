@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" fill="none" aria-hidden="true">
+  <!-- Hex nut + bolt: literal hardware -->
+  <path
+    stroke="#fff"
+    stroke-width="1.6"
+    stroke-linejoin="round"
+    d="M100 28 L122 40.5 L122 65.5 L100 78 L78 65.5 L78 40.5 Z"
+  />
+  <circle cx="100" cy="53" r="14" stroke="#fff" stroke-width="1.6" />
+  <path stroke="#fff" stroke-width="1.6" stroke-linecap="round" d="M100 67 V95" />
+  <path stroke="#fff" stroke-width="2.4" stroke-linecap="round" d="M92 95 H108" />
+  <path stroke="#fff" stroke-width="1.4" stroke-linecap="round" d="M52 48 H68 M132 48 H148" />
+  <path stroke="#fff" stroke-width="1.2" opacity="0.5" d="M44 88 H156" stroke-dasharray="3 4" />
+</svg>

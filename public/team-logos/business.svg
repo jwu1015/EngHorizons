@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" fill="none" aria-hidden="true">
+  <!-- Briefcase -->
+  <path
+    stroke="#fff"
+    stroke-width="1.6"
+    stroke-linejoin="round"
+    d="M48 48 H152 V88 H48 Z"
+  />
+  <path stroke="#fff" stroke-width="1.6" stroke-linecap="round" d="M76 48 V40 C76 32 82 28 100 28 C118 28 124 32 124 40 V48" />
+  <path stroke="#fff" stroke-width="1.4" d="M88 48 V56 H112 V48" />
+  <rect x="92" y="62" width="16" height="10" rx="1" stroke="#fff" stroke-width="1.3" />
+  <path stroke="#fff" stroke-width="1.2" stroke-linecap="round" d="M64 72 H136" opacity="0.45" />
+</svg>

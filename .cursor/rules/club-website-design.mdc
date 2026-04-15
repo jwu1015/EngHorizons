@@ -1,0 +1,17 @@
+---
+description: Club website design system — avoid vibe-coding; design system first
+alwaysApply: true
+---
+
+# Club Website Design Rules
+
+**Core principle:** Every spacing value, color, radius, weight, and animation must reference the project design system. Inconsistency signals vibe-coding.
+
+- **Colors:** No default purple gradients unless brand. No sparkles/emojis in hero headings. No generic glowing hovers.
+- **Typography:** Consistent weight hierarchy, uniform line-height and paragraph spacing. Use the defined type scale only.
+- **Layout:** Same component placement across pages. 2–3 border-radius values max. Hover lift 2–4px max. Icons sized to text. No non-functional social icons.
+- **Motion:** Use cubic-bezier easing; stagger intentionally; every animation has a purpose.
+- **UX:** Loading states for async actions; progress on buttons; working toggles/carousels; skeleton screens for data-heavy sections.
+- **Copy:** No em-dash overuse. No vague phrases ("Launch faster", "Build your dreams"). No fake testimonials or placeholder names (e.g. "Sarah Chen").
+
+Before adding new UI: check `DESIGN_SYSTEM.md` for tokens and patterns.
