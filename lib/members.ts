@@ -1,5 +1,5 @@
 /** Bump this whenever you replace images in `public/members/` so browsers skip cached copies. */
-export const MEMBER_PHOTO_VERSION = "20250416";
+export const MEMBER_PHOTO_VERSION = "20250417";
 
 export type Member = {
   name: string;
@@ -13,7 +13,7 @@ export type MemberGroup = {
 };
 
 const ANDREAS_PHOTO = "/members/andreas-trujillo.jpeg";
-const YUTO_PHOTO = "/members/yuto-shingai.jpeg";
+const YUTO_PHOTO = "/members/yuto-shingai.png";
 
 export const EXECUTIVE_BOARD: MemberGroup = {
   title: "Executive board",
