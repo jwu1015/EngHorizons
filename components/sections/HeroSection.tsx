@@ -29,7 +29,9 @@ export default function HeroSection() {
               </div>
               <div className="flex w-full flex-wrap gap-3 sm:gap-4 lg:justify-end">
                 <Link
-                  href="/#contact"
+                  href="https://forms.gle/BE4GQNTTFfyWdFWMA"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex min-h-[2.75rem] items-center justify-center rounded-sm bg-accent px-7 py-2.5 font-mono text-[0.8rem] font-semibold uppercase tracking-[0.14em] text-on-accent shadow-lg shadow-black/40 ring-1 ring-black/20 transition-colors [transition-timing-function:cubic-bezier(0.4,0,0.2,1)] hover:bg-accent-hover sm:px-8 md:min-h-[3rem] md:px-9 md:text-[0.9rem]"
                 >
                   Get involved
