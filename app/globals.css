@@ -215,4 +215,12 @@
       0 1px 0 rgb(255 255 255 / 0.55) inset,
       0 10px 24px -18px rgb(10 10 10 / 0.35);
   }
+
+  .btn-primary {
+    @apply inline-flex min-h-[2.75rem] items-center justify-center rounded-sm bg-accent px-6 py-2.5 font-mono text-[0.8rem] font-semibold uppercase tracking-[0.14em] text-on-accent transition-colors [transition-timing-function:cubic-bezier(0.4,0,0.2,1)] hover:bg-accent-hover;
+  }
+
+  .btn-outline {
+    @apply inline-flex min-h-[2.75rem] items-center justify-center rounded-sm border border-border bg-background px-6 py-2.5 font-mono text-[0.8rem] font-semibold uppercase tracking-[0.14em] text-foreground transition-colors [transition-timing-function:cubic-bezier(0.4,0,0.2,1)] hover:border-accent hover:text-accent;
+  }
 }

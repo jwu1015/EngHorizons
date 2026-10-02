@@ -94,7 +94,7 @@ export default function Header() {
         id="header-nav-panel"
         className={`relative z-[2] border-zinc-800 bg-zinc-950 px-4 transition-all duration-300 [transition-timing-function:cubic-bezier(0.4,0,0.2,1)] motion-reduce:transition-none md:px-6 ${
           menuOpen
-            ? "max-h-80 translate-y-0 border-t py-4 opacity-100 md:py-5"
+            ? "max-h-[36rem] translate-y-0 border-t py-4 opacity-100 md:py-5"
             : "pointer-events-none max-h-0 -translate-y-2 border-t-0 py-0 opacity-0"
         }`}
         aria-label="Main"

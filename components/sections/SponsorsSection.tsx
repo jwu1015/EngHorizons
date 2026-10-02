@@ -1,8 +1,15 @@
 import Image from "next/image";
+import Link from "next/link";
 import SectionIntro from "@/components/ui/SectionIntro";
 import { SPONSOR_ASSET_VERSION, SPONSOR_LOGOS } from "@/lib/sponsorLogos";
 
-export default function SponsorsSection() {
+type SponsorsSectionProps = {
+  showPartnerLink?: boolean;
+};
+
+export default function SponsorsSection({
+  showPartnerLink = true,
+}: SponsorsSectionProps) {
   const visibleSponsors = SPONSOR_LOGOS.slice(1);
 
   return (
@@ -28,6 +35,13 @@ export default function SponsorsSection() {
             </div>
           ))}
         </div>
+        {showPartnerLink ? (
+          <div className="mt-12 flex justify-center">
+            <Link href="/partners" className="btn-outline">
+              Become a partner
+            </Link>
+          </div>
+        ) : null}
       </div>
     </section>
   );
